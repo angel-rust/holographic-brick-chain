@@ -1,0 +1,14 @@
+[package]
+name = "brick-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+brick-core   = { path = "../../crates/brick-core" }
+brick-chain  = { path = "../../crates/brick-chain" }
+brick-lanes  = { path = "../../crates/brick-lanes" }
+brick-holo   = { path = "../../crates/brick-holo" }
+brick-ids    = { path = "../../crates/brick-ids" }
+brick-hash   = { path = "../../crates/brick-hash" }
+ed25519-dalek = "2"
+blake3 = "1"

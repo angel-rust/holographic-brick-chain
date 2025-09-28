@@ -1,0 +1,13 @@
+[package]
+name = "brick-holo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+brick-core   = { path = "../brick-core" }
+brick-chain  = { path = "../brick-chain" }
+brick-da     = { path = "../brick-da" }
+brick-super  = { path = "../brick-super" }
+brick-attest = { path = "../brick-attest" }
+brick-hash   = { path = "../brick-hash" }
+ed25519-dalek = "2"

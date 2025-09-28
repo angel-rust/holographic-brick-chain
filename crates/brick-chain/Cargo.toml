@@ -1,0 +1,12 @@
+[package]
+name = "brick-chain"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+brick-core = { path = "../brick-core" }
+brick-codec = { path = "../brick-codec" }
+brick-hash  = { path = "../brick-hash" }
+brick-ids   = { path = "../brick-ids" }
+brick-proof = { path = "../brick-proof" }
+blake3 = "1"

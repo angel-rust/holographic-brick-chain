@@ -1,0 +1,8 @@
+[package]
+name = "brick-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+brick-ids = { path = "../brick-ids" }
+smallvec = "1"

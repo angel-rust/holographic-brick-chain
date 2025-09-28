@@ -1,0 +1,8 @@
+[package]
+name = "brick-proof"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+blake3 = "1"
+brick-hash = { path = "../brick-hash" }

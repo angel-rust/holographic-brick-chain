@@ -1,0 +1,21 @@
+[workspace]
+members = [
+  "apps/brick-cli",
+  "crates/brick-hash",
+  "crates/brick-ids",
+  "crates/brick-core",
+  "crates/brick-codec",
+  "crates/brick-proof",
+  "crates/brick-chain",
+  "crates/brick-lanes",
+  "crates/brick-exec",
+  "crates/brick-da",
+  "crates/brick-super",
+  "crates/brick-attest",
+  "crates/brick-holo",
+]
+resolver = "2"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
